@@ -1,0 +1,20 @@
+.res_menu{
+    opacity: 1;
+    visibility: visible;
+}
+
+.rainbow-gradient-circle {
+    position: fixed;
+    left: -400px;
+    top: 20px;
+    right: auto;
+    bottom: auto;
+    z-index: -1;
+    width: 500px;
+    height: 500px;
+    border-radius: 1000px;
+    background-image: linear-gradient(45deg, #a546ca, #a546ca);
+    opacity: 0.3;
+    -webkit-filter: blur(100px);
+    filter: blur(150px);
+}
