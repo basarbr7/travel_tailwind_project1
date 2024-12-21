@@ -4,7 +4,7 @@
 }
 
 .rainbow-gradient-circle {
-    position: fixed;
+    position: absolute;
     left: -400px;
     top: 20px;
     right: auto;

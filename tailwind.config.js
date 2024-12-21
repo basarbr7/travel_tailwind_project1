@@ -7,6 +7,23 @@ module.exports = {
       'Volkhov': ["Volkhov", "serif"]
     },
     extend: {
+      container: {
+        center: true, // Centers the container
+        padding: {
+          DEFAULT: '1rem', // Default padding (16px)
+          // sm: '2rem',      // Padding for small screens
+          // lg: '4rem',      // Padding for large screens
+          // xl: '5rem',      // Padding for extra-large screens
+          // '2xl': '6rem',   // Padding for 2xl screens
+        },
+        screens: {
+          sm: '640px',  // Small screens
+          md: '768px',  // Medium screens
+          lg: '1024px', // Large screens
+          xl: '1200px', // Extra-large screens
+          '2xl': '1536px', // 2X Extra-large screens
+        },
+      },
       spacing: {
         'myContainer': '1200px',
       },
