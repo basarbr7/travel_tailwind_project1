@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     fontFamily: {
       'popphins': ["Poppins", "serif"],
-      'Volkhov': ["Volkhov", "serif"]
+      'Volkhov': ["Volkhov", "serif"],
+      'Open_Sans': ["Open Sans", "serif"],
     },
     extend: {
       container: {
