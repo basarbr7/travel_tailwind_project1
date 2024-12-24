@@ -8,6 +8,9 @@ module.exports = {
       'openSans': ["Open Sans", "serif"],
     },
     extend: {
+      letterSpacing: {
+        'custom': '0.015em', // Custom letter-spacing for 1.5%
+      },
       // container: {
       //   center: true, // Centers the container
       //   padding: {
@@ -33,6 +36,7 @@ module.exports = {
         playShadow: '0px 15px 30px 0px rgba(223,105,81,1)',
         serviceShadow: '0px 45px 30px -3px rgba(0,0,0,0.13)',
         sellingShadow: '0px 100px 80px 0px rgba(0,0,0,0.2)',
+        tripShadow: '0px 1px 105px -24px rgba(89,177,230,1)',
       },
     },
   },
