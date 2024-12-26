@@ -875,6 +875,10 @@ video {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -1032,6 +1036,18 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[url\(images\/Rectangle1\.jpg\)\] {
+  background-image: url(images/Rectangle1.jpg);
+}
+
+.bg-\[url\(images\/Rectangle2\.jpg\)\] {
+  background-image: url(images/Rectangle2.jpg);
+}
+
+.bg-\[url\(images\/Rectangle3\.jpg\)\] {
+  background-image: url(images/Rectangle3.jpg);
 }
 
 .object-top {
