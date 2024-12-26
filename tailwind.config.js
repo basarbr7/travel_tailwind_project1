@@ -34,9 +34,9 @@ module.exports = {
       boxShadow: {
         shadow1: '0px 20px 35px 0px rgba(241,165,1,0.15)',
         playShadow: '0px 15px 30px 0px rgba(223,105,81,1)',
-        serviceShadow: '0px 45px 30px -3px rgba(0,0,0,0.13)',
-        sellingShadow: '0px 100px 80px 0px rgba(0,0,0,0.2)',
-        tripShadow: '0px 1px 105px -24px rgba(89,177,230,1)',
+        serviceShadow: '0px 38.9px 29.16px 0px rgba(0,0,0,0.11)',
+        sellingShadow: '0px 38.9px 29.16px 0px rgba(0,0,0,0.11)',
+        tripShadow: '0px 38.9px 29.16px 0px rgba(0,0,0,0.11)',
       },
     },
   },
