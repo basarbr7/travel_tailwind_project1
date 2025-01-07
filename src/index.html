@@ -32,7 +32,7 @@
                 </a>
             </div>
             
-            <ul class="flex gap-x-9 lg:gap-14 items-center bg-[#E5E3D4] md:bg-transparent absolute left-0 top-full md:static w-full md:w-auto flex-col md:flex-row opacity-0 invisible md:opacity-100 md:visible transition-all duration-300 ease-linear ">
+            <ul class="flex gap-x-9 lg:gap-14 items-center bg-[#E5E3D4] md:bg-transparent absolute left-0 top-full md:static w-full md:w-auto flex-col md:flex-row opacity-0 invisible md:opacity-100 md:visible transition-all duration-300 ease-linear font-poppins">
                 <li class="hover:text-blue-700 w-full bg-gray-500 md:bg-transparent p-4 md:p-0 text-center shadow-[inset_0_-1px_0_rgba(0,0,0,0.1)] md:shadow-transparent cursor-pointer"><a href="">Desitnations</a></li>
                 <li class="hover:text-blue-700 w-full p-4 md:p-0 text-center shadow-[inset_0_-1px_0_rgba(0,0,0,0.1)] md:shadow-transparent cursor-pointer"><a href="">Hotels</a></li>
                 <li class="hover:text-blue-700 w-full p-4 md:p-0 text-center shadow-[inset_0_-1px_0_rgba(0,0,0,0.1)] md:shadow-transparent cursor-pointer"><a href="">Flights</a></li>
@@ -60,26 +60,26 @@
             <img src="images/bg-left.png" alt="images/bg-left.png">
         </div>
 
-        <div class="max-w-myContainer mx-auto px-4 flex relative">
-            <div class="text_fild w-1/2 mt-[217px] z-10">
-                <h3 class="text-[#DF6951] text-[20px] font-bold font-popphins">Best Destinations around the world</h3>
-                <h1 class="max-w-[590px] font-Volkhov font-bold text-[84px] leading-[89px] tracking-[-0.25px] mt-6 mb-8 relative">
+        <div class="max-w-myContainer mx-auto px-4  flex relative">
+            <div class="text_fild md:w-1/2 mt-[217px] z-30">
+                <h3 class="text-[#DF6951] text-center md:text-left text-[20px] font-bold font-popphins">Best Destinations around the world</h3>
+                <h1 class="max-w-[590px] font-Volkhov font-bold text-[#ffffff] sm:text-[black] text-[36px] md:text-[84px] text-center sm:text-left leading-[50px] md:leading-[89px] tracking-[-0.25px] mt-6 mb-8 relative">
                     Travel, enjoy and live a new and full life 
-                    <img class="absolute top-20 -right-8 -z-10" src="images/Vector.png" alt="images/vactor.png">
-                    <img class="absolute -top-24 -right-28" src="images/plane.png" alt="images/plane.png">
+                    <img class="absolute top-20 -right-8 -z-10 hidden lg:block" src="images/Vector.png" alt="images/vactor.png">
+                    <img class="plane absolute -top-24 -right-28 lg::animate-bounce hidden sm:flex" src="images/plane.png" alt="images/plane.png">
                 </h1>
-                <p class="max-w-[477px] font-popphins text-[#5E6282] font-medium text-base leading-8 tracking-normal">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
-                <div class="flex items-center gap-x-11 mt-9">
-                    <button class="bg-orange-400 px-7 py-4 rounded-lg text-white text-[18px] font-medium font-popphins shadow-shadow1">Find out more</button>
+                <p class="max-w-[477px] font-popphins text-center sm:text-left md:text-[#5E6282] font-medium text-base md:leading-8">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
+                <div class="flex items-center gap-x-5 sm:gap-x-11 mt-9">
+                    <button class="bg-orange-400 px-4  sm:px-7 py-4 rounded-lg text-white text-sm sm:text-[18px] font-medium font-popphins shadow-shadow1">Find out more</button>
                     <div class="flex items-center justify-center gap-x-5">
                         <span class="flex items-center justify-center overflow-hidden h-[52px] w-[52px]  bg-[#DF6951] shadow-playShadow rounded-full text-white cursor-pointer"><i class="fa-solid fa-play"></i></span>
-                        <span class="font-popphins font-medium text-[17px] text-[#686D77]">Play Demo</span>
+                        <span class="font-popphins font-medium text-sm sm:text-[17px] text-[#686D77]">Play Demo</span>
                     </div>
                 </div>
             </div>
-            <div class="img_field z-0">
-                <img class="absolute top-0 right-0 mt-28" src="./images/Traveller.png" alt="./images/Traveller.png">
-
+            <div class="img_field">
+                <div class="absolute inset-0 bg-black bg-opacity-20 z-20 md:hidden"></div>
+                <img class="absolute top-0 right-0 mt-28 z-10" src="./images/Traveller.png" alt="./images/Traveller.png">
             </div>
         </div>
      </section>
@@ -154,7 +154,7 @@
 
             <div class="grid grid-cols-3 gap-20">
 
-                <div class="h-[457px] w-[315px] bg-[url(images/Rectangle1.jpg)] rounded-3xl shadow-customShadow overflow-hidden flex flex-col items-start justify-end">
+                <div class="h-[457px] max-w-[315px] bg-[url(images/Rectangle1.jpg)] rounded-3xl shadow-customShadow overflow-hidden flex flex-col items-start justify-end">
                     <div class="w-full p-5 pb-11 bg-white">
                         <div class="flex items-center justify-between text-xl text-[#5E6282] font-poppins font-medium leading-[1.245]">
                             <span>Rome, Italty</span>
@@ -167,7 +167,7 @@
                     </div>
                 </div>
                 
-                <div class="h-[457px] w-[315px] bg-[url(images/Rectangle2.jpg)] rounded-3xl shadow-customShadow  flex flex-col overflow-hidden items-start justify-end">
+                <div class="h-[457px] max-w-[315px] bg-[url(images/Rectangle2.jpg)] rounded-3xl shadow-customShadow  flex flex-col overflow-hidden items-start justify-end">
                     <div class="w-full p-5 pb-11 bg-white">
                         <div class="flex items-center justify-between text-xl text-[#5E6282] font-poppins font-medium leading-[1.245]">
                             <span>Rome, Italty</span>
@@ -180,7 +180,7 @@
                     </div>
                 </div>
 
-                <div class="h-[457px] w-[315px] bg-[url(images/Rectangle3.jpg)] rounded-3xl shadow-customShadow relative">
+                <div class="h-[457px] max-w-[315px] bg-[url(images/Rectangle3.jpg)] rounded-3xl shadow-customShadow relative">
                     <div class="rounded-3xl w-full h-full overflow-hidden flex flex-col items-start justify-end">
                         <div class="w-full p-5 pb-11 bg-white">
                             <div class="flex items-center justify-between text-xl text-[#5E6282] font-poppins font-medium leading-[1.245]">
@@ -353,7 +353,7 @@
 
 
     <!-- ===================== footer part start ============================= -->
-     <footer class="pt-24 mb-[79px]">
+     <footer class="pt-24">
         <div class="max-w-myContainer mx-auto px-4">
             <div class="grid grid-cols-4">
 
@@ -368,51 +368,67 @@
                         <div class="menu col-span-2 flex justify-between">
                             <ul class="list-none flex flex-col gap-3 font-poppins font-medium text-lg leading-[1.245] text-[#5E6282]">
                                 <h3 class="mb-8 font-bold text-[21px] text-[#080809]">Company</h3>
-                                <li>About</li>
-                                <li>Careers</li>
-                                <li>Mobile</li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Careers</a></li>
+                                <li><a href="">Mobile</a></li>
                             </ul>
 
                             <ul class="list-none flex flex-col gap-3 font-poppins font-medium text-lg leading-[1.245] text-[#5E6282]">
                                 <h3 class="mb-8 font-bold text-[21px] text-[#080809]">Contact</h3>
-                                <li>Help/FAQ</li>
-                                <li>Press</li>
-                                <li>Affilates</li>
+                                <li><a href="">Help/FAQ</a></li>
+                                <li><a href="">Press</a></li>
+                                <li><a href="">Affilates</a></li>
                             </ul>
 
                             <ul class="list-none flex flex-col gap-3 font-poppins font-medium text-lg leading-[1.245] text-[#5E6282]">
                                 <h3 class="mb-8 font-bold text-[21px] text-[#080809]">More</h3>
-                                <li>Airlinefees</li>
-                                <li>Airline</li>
-                                <li>Low fare tips</li>
+                                <li><a href="">Airlinefees</a></li>
+                                <li><a href="">Airline</a></li>
+                                <li><a href="">Low fare tips</a></li>
                             </ul>
                         </div>
 
                         <div class="col-span-1">
                             <div class="flex gap-6 mb-7">
-                                <div class="h-[41px] w-[41px] bg-white rounded-full shadow-footerShadow flex items-center justify-center">
+                                <div class="h-[41px] w-[41px] bg-white rounded-full shadow-footerShadow flex items-center justify-center cursor-pointer">
                                     <i class="fa-brands fa-facebook-f"></i>
                                 </div>
-                                <div class="h-[41px] w-[41px] bg-conic-custom rounded-full shadow-footerShadow flex items-center justify-center">
+                                <div class="h-[41px] w-[41px] bg-conic-custom rounded-full shadow-footerShadow flex items-center justify-center cursor-pointer">
                                     <i class="fa-brands fa-instagram text-white "></i>
                                 </div>
-                                <div class="h-[41px] w-[41px] bg-white rounded-full shadow-footerShadow flex items-center justify-center">
+                                <div class="h-[41px] w-[41px] bg-white rounded-full shadow-footerShadow flex items-center justify-center cursor-pointer">
                                     <i class="fa-brands fa-twitter"></i>
                                 </div>
                             </div>
                             <span class="font-poppins font-medium text-xl leading-[1.245] tracking-[0.005em] text-[#5E6282]">Discover our app</span>
+                            
+                            <div class="flex gap-2 mt-4">
+                                <div class="flex gap-[5px] items-center justify-center w-[107px] h-[35px] bg-[#080809] rounded-[17.5px] cursor-pointer">
+                                    <img src="images/google-play.png" alt="" class="object-cover">
+                                    <div class="text-[white] flex flex-col leading-5">
+                                        <span class="leading-[10px] text-[10px] font-bold">GET IT ON</span>
+                                        <span class="leading-[10px] text-[8px]">GOOGLE PLAY</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="flex gap-[5px] items-center justify-center w-[107px] h-[35px] bg-[#080809] rounded-[17.5px] cursor-pointer">
+                                    <i class="fa-brands fa-apple text-white text-xl "></i>
+                                    <div class="text-[white] flex flex-col leading-5">
+                                        <span class="leading-[10px] text-[8px]">Aviable on the</span>
+                                        <span class="leading-[10px] text-[10px] font-bold ">Apple Store</span>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
 
             </div>
+            <span class="mt-20 mb-10 block text-center text-[#5E6282] font-poppins">All rights reserved@jadoo.co</span>
         </div>
      </footer>
     <!-- ===================== footer part end ============================= -->
-
-
-
-
 
 
 

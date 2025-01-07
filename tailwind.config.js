@@ -33,7 +33,7 @@ module.exports = {
         shadow1: '0px 20px 35px 0px rgba(241,165,1,0.15)',
         playShadow: '0px 15px 30px 0px rgba(223,105,81,1)',
         customShadow: '0px 38.9px 29.16px 0px rgba(0,0,0,0.11)',
-        footerShadow: '0px 2px 10px 0px rgba(0,0,0,0.1)',
+        footerShadow: '0px 2px 10px 0px rgba(0,0,0,0.3)',
       },
     },
   },
