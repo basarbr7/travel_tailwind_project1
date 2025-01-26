@@ -66,7 +66,32 @@ footer .menu ul li a::before{
     transition: all linear 0.4s;
 
 }
+
 footer .menu ul li a:hover::before{
     width: 100%;
     left: 0;
+}
+
+@media (min-width: 500px) and (max-width: 767.98px) {
+    .img_field img{
+        max-width: 550px;
+        height: auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023.98px) {
+    .img_field img{
+        max-width: 700px;
+        height: auto;
+    }
+    .text-travel{
+        width: 500px;
+    }
+}
+@media (min-width: 412px) and (max-width: 639.98px) {
+    #banner{
+        padding-bottom: 112px;
+    }
+    .findDemo{
+        margin-top: 80px;
+    }
 }

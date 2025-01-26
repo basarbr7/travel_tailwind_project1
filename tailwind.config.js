@@ -27,7 +27,7 @@ module.exports = {
         )`,
       },
       spacing: {
-        'myContainer': '1200px',
+        'myContainer': '1200px', 
       },
       boxShadow: {
         shadow1: '0px 20px 35px 0px rgba(241,165,1,0.15)',
